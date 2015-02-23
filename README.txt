@@ -16,11 +16,11 @@ cd examples
 make main01
 
 # If this worked, now add your own executables
-cp ~aidan/public/ZPrimePythia/ZPrime.cc .
+wget https://raw.githubusercontent.com/ULBHEEPAnalyses/PythiaZPrime/master/ZPrime.cc
 
 # The Makefile also needs to be changed
 # Take a look inside to see how to add your own executables in the future
-cp ~aidan/public/ZPrimePythia/Makefile .
+wget https://raw.githubusercontent.com/ULBHEEPAnalyses/PythiaZPrime/master/Makefile
 
 # Make and execute the ZPrime binary
 make ZPrime
