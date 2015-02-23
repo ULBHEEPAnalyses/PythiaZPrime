@@ -28,3 +28,10 @@ make ZPrime
 
 # Parse the output (units of mb)
 grep Zprime0 ZPrime.log
+
+# The executable can take command line arguments:
+# 1st argument: mass (GeV)
+# 2nd argument: nEvents
+# 3rd argument: CM energy (GeV)
+# So you can generate 50,000 events with a 1 TeV Z' at CM = 8 TeV by doing:
+./ZPrime 1000 50000 8000
